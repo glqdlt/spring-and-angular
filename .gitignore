@@ -1,0 +1,6 @@
+.idea
+target
+mvnw
+mvnw.cmd
+seminar_demo.iml
+/src/main/ng/demoui/node_modules/

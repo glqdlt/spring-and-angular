@@ -1,0 +1,13 @@
+  <div id="case003">
+
+    <h2>Case003</h2>
+
+    <input #check1 type="checkbox" value="kim" (change)="appendCheckNames(check1)"/>
+    <label>kim</label>
+
+    <input #check2 type="checkbox" value="jhun" (change)="appendCheckNames(check2)"/>
+    <label>jhun</label>
+
+    <p>checkNames Value Data : <ng-container *ngFor="let n of checkNames">{{n}} </ng-container></p>
+
+  </div>
